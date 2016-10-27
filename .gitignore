@@ -7,5 +7,7 @@ dist
 .project
 .pydevproject
 .idea
+._.DS_Store
+.DS_Store
 searchindex.js
 search.html
