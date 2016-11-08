@@ -8725,9 +8725,7 @@ h3.newsDescription {
   margin-top: -1em;
   text-align: right;
 }
-#users_search td {
-  text-align: center;
-}
+#users_search .quickSearch,
 #users_search .searchButton {
   color: #004994;
 }
@@ -8964,6 +8962,8 @@ table.ploneCalendar td {
 }
 table td img {
   max-width: inherit;
+  float: none;
+  margin: 0;
 }
 .table-striped {
   background: white;
@@ -9280,6 +9280,10 @@ table.tablesaw {
     padding-right: 10px;
     white-space: nowrap;
   }
+}
+table th,
+table td.listingCheckbox {
+  text-align: center;
 }
 #accordion h4 > a {
   display: block;

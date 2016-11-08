@@ -1,42 +1,44 @@
 // Tables
 
 table.ploneCalendar {
-        width:100%;
-        margin:0 5px;
-        }
+  width:100%;
+  margin:0 5px;
+}
 table.ploneCalendar td {
-        padding:0 5px;
-        }
+  padding:0 5px;
+}
 table td img {
-        max-width:inherit;
-        }
+  max-width:inherit;
+  float: none;
+  margin: 0;
+}
 .table-striped {
-        background:white;
+  background:white;
 }
 .table-striped caption {
-        background-color:#09c;
-        margin:0;
-        padding:10px;
+  background-color:#09c;
+  margin:0;
+  padding:10px;
 }
 .table-condensed > tbody > tr:first-child,
 .table-responsive caption,
 .table-striped thead {
-        background-color:@blue !important;
-        margin:0;
-        padding:10px;
-        }
+  background-color:@blue !important;
+  margin:0;
+  padding:10px;
+}
 .table th {
   color:white;
   background-color: @blue;
 }
 .table thead th {
   vertical-align: top;
-  }
+}
 .table-responsive caption,
 .table-striped caption,
 .table th {
-        border-bottom:1px solid @blue !important;
-        }
+  border-bottom:1px solid @blue !important;
+}
 table.listing td.draggable {
   text-shadow: White 1px 1px 1px;
   background: #ddd !important;
@@ -44,22 +46,22 @@ table.listing td.draggable {
   padding: 0.4em 0.4em 0 0.5em;
 }
 th.row-10 {
-        width:10%;
-        }
+  width:10%;
+}
 th.row-15 {
-        width:15%;
-        }
+  width:15%;
+}
 th.row-20 {
-        width:20%;
-        }
+  width:20%;
+}
 
 
 th.row-25 {
-        width:25%;
-       }
+  width:25%;
+}
 td {
-        min-height: 16px;
-       }
+  min-height: 16px;
+}
 .dragindicator {
   outline: 2px solid #FFD700;
 }
@@ -77,38 +79,38 @@ table.listing th {
 //  }
 /* table-enhanced responsive*/
 .table-wrapper {
-     position: relative;
-        margin: 5em 0;
+ position: relative;
+ margin: 5em 0;
 }
 .table-menu-wrapper {
-     position: absolute;
-        top: -3em;
-           right: 0;
+ position: absolute;
+ top: -3em;
+ right: 0;
 }
 .table-menu {
-     position: absolute;
-        background-color: #fff;
-           padding: 10px;
-              border: 1px solid #ccc;
-                 font-size: 1.2em;
-                    width: 12em;
-                       right: 0;
-                          left: auto;
+ position: absolute;
+ background-color: #fff;
+ padding: 10px;
+ border: 1px solid #ccc;
+ font-size: 1.2em;
+ width: 12em;
+ right: 0;
+ left: auto;
 }
 
 .table-menu-hidden {
-     left: -999em;
-        right: auto;
+ left: -999em;
+ right: auto;
 }
 .table-menu-btn {
-     text-decoration: none;
-        color: #333;
-           font-size: 1.2em;
-                 padding: .3em 10px .3em 20px;
-                    border: 1px solid #ccc;
+ text-decoration: none;
+ color: #333;
+ font-size: 1.2em;
+ padding: .3em 10px .3em 20px;
+ border: 1px solid #ccc;
 }
 .table-menu li {
-     padding: .3em 0;
+ padding: .3em 0;
 }
 .table-enhanced {
   width: 100%;
@@ -121,7 +123,7 @@ table.table-enhanced thead {
   padding: 0 5px 0 10px;
 }
 .table-enhanced thead th {
-        white-space: nowrap;
+  white-space: nowrap;
 }
 .table-enhanced th,
 .table-enhanced td {
@@ -132,49 +134,49 @@ table.table-enhanced thead {
 }
 .table-enhanced th:first-child,
 .table-enhanced td:first-child {
-     text-align: left;
+ text-align: left;
 }
 .table-enhanced tbody th,
 .table-enhanced td {
-        border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
 }
 .enhanced th,
 .enhanced td {
-     display: none;
+ display: none;
 }
 
 .legacy-ie .enhanced th.essential,
 .legacy-ie .enhanced td.essential {
-        display: inline;
+  display: inline;
 }
 .enhanced th.essential,
 .enhanced td.essential {
-     display: table-cell;
+ display: table-cell;
 }
 .template-downloadwoid_view ul {list-style:none;margin-left:0;}
 .template-downloadwoid_view #content ul li {
   padding-left: 11px;
   text-indent: -11px;
-  }
+}
 table.vertical th {
   border-bottom: 0 !important;
-  }
+}
 table.vertical th {
   font-weight:normal !important;
-  }
+}
 table.vertical th:first-child {
   font-weight:bold !important;
-  }
+}
 table.vertical td:first-child {
   font-weight:bold;
-  }
+}
 table.vertical th, table.vertical td {
   padding: 8px;
   line-height: 20px;
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #dddddd;
- }
+}
 //  https://github.com/filamentgroup/tablesaw/blob/master/dist/stackonly/tablesaw.stackonly.scss
 
 /*! Tablesaw - v1.0.4 - 2015-02-19
@@ -329,41 +331,47 @@ table.tablesaw {
 }
 @media only screen and (max-width: 760px)  {
 
-    /* Force table to not be like tables anymore */
-    .responsivetable table,
-    .responsivetable thead,
-    .responsivetable tbody,
-    .responsivetable th,
-    .responsivetable td,
-    .responsivetable tr {
-        display: block;
-    }
+  /* Force table to not be like tables anymore */
+  .responsivetable table,
+  .responsivetable thead,
+  .responsivetable tbody,
+  .responsivetable th,
+  .responsivetable td,
+  .responsivetable tr {
+    display: block;
+  }
 
-    /* Hide table headers (but not display: none;, for accessibility) */
-    .responsivetable thead tr {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-    }
+  /* Hide table headers (but not display: none;, for accessibility) */
+  .responsivetable thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
 
-    .responsivetable tr { border: 1px solid #ccc; }
+  .responsivetable tr { border: 1px solid #ccc; }
 
-    .responsivetable td {
-        /* Behave  like a "row" */
-        border: none;
-        border-bottom: 1px solid #eee;
-        position: relative;
-        padding-left: 40% !important;
-    }
+  .responsivetable td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 40% !important;
+  }
 
-    .responsivetable td:before {
-        /* Now like a table header */
-        position: absolute;
-        /* Top/left values mimic padding */
-        top: 6px;
-        left: 6px;
-        width: 45%;
-        padding-right: 10px;
-        white-space: nowrap;
-    }
+  .responsivetable td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+}
+table {
+  th,
+  td.listingCheckbox {
+    text-align: center;
+  }
 }
