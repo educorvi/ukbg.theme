@@ -8725,6 +8725,12 @@ h3.newsDescription {
   margin-top: -1em;
   text-align: right;
 }
+#users_search td {
+  text-align: center;
+}
+#users_search .searchButton {
+  color: #004994;
+}
 /* PORTRAIT TABLETS */
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-header {
