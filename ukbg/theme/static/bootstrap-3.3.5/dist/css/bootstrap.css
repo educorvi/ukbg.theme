@@ -8969,8 +8969,7 @@ table td img {
 }
 .table-condensed > tbody > tr:first-child,
 .table-responsive caption,
-.table-striped thead,
-.table-striped tr:first-child {
+.table-striped thead {
   background-color: #004994 !important;
   margin: 0;
   padding: 10px;
