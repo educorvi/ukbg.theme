@@ -8725,8 +8725,8 @@ h3.newsDescription {
   margin-top: -1em;
   text-align: right;
 }
-#users_search .quickSearch,
-#users_search .searchButton {
+th .quickSearch,
+th .searchButton {
   color: #004994;
 }
 /* PORTRAIT TABLETS */
