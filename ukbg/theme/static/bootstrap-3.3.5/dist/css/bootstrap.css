@@ -8984,6 +8984,9 @@ table td img {
   color: white;
   background-color: #004994;
 }
+.table th a {
+  color: white;
+}
 .table thead th {
   vertical-align: top;
 }
