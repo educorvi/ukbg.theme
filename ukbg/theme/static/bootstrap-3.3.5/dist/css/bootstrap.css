@@ -4935,7 +4935,9 @@ a.label:focus {
 .label-danger[href]:focus {
   background-color: #c9302c;
 }
-.badge {
+.badge,
+#foldercontents-selectall,
+#foldercontents-clearselection {
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
@@ -8729,51 +8731,11 @@ th .quickSearch,
 th .searchButton {
   color: #004994;
 }
-#foldercontents-selectall {
-  display: inline-block;
-  min-width: 10px;
-  padding: 3px 7px;
-  font-size: 12px;
-  font-weight: bold;
-  color: #ffffff;
-  line-height: 1;
-  vertical-align: middle;
-  white-space: nowrap;
-  text-align: center;
-  background-color: #777777;
-  border-radius: 10px;
-}
-#foldercontents-selectall:empty {
-  display: none;
-}
-.btn #foldercontents-selectall {
-  position: relative;
-  top: -1px;
-}
-.btn-xs #foldercontents-selectall,
-.btn-group-xs > .btn #foldercontents-selectall {
-  top: 0;
-  padding: 1px 5px;
-}
-a#foldercontents-selectall:hover,
-a#foldercontents-selectall:focus {
-  color: #ffffff;
+#foldercontents-selectall:hover,
+#foldercontents-clearselection:hover,
+#foldercontents-selectall:focus,
+#foldercontents-clearselection:focus {
   text-decoration: none;
-  cursor: pointer;
-}
-.list-group-item.active > #foldercontents-selectall,
-.nav-pills > .active > a > #foldercontents-selectall {
-  color: #004994;
-  background-color: #ffffff;
-}
-.list-group-item > #foldercontents-selectall {
-  float: right;
-}
-.list-group-item > #foldercontents-selectall + #foldercontents-selectall {
-  margin-right: 5px;
-}
-.nav-pills > li > a > #foldercontents-selectall {
-  margin-left: 3px;
 }
 /* PORTRAIT TABLETS */
 @media (min-width: 768px) and (max-width: 991px) {

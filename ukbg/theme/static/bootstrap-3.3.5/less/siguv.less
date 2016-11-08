@@ -553,6 +553,10 @@ th {
   	color: @blue;
   }
 }
-#foldercontents-selectall {
-  .badge;
+#foldercontents-selectall,
+#foldercontents-clearselection {
+  &:extend(.badge);
+  &:hover, &:focus {
+    text-decoration: none;
+  }
 }
