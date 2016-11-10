@@ -9857,6 +9857,9 @@ label {
 .myfooter p {
   color: #ffffff;
 }
+#docactions li {
+  white-space: nowrap;
+}
 #portletNavigation ul {
   padding-left: 4px;
 }
