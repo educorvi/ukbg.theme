@@ -9303,6 +9303,9 @@ table.tablesaw {
 table td.listingCheckbox {
   text-align: center;
 }
+#users_search td {
+  border: 1px solid #004994;
+}
 #accordion h4 > a {
   display: block;
 }
