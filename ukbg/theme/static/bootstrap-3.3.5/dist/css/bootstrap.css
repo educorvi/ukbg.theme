@@ -7170,7 +7170,7 @@ li.listItem a:before {
   font-size: 14px;
   content: "\f0da";
 }
-#document-action-download_pdf a:before {
+#document-action-download_pdf:before {
   padding-left: 24px;
   font-family: 'FontAwesome';
   font-size: 14px;
