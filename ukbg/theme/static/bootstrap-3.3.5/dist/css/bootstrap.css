@@ -9348,6 +9348,9 @@ table td.listingCheckbox {
   background-color: #004994;
   color: #ffffff;
 }
+#folderlisting-main-table table th {
+  border-bottom: 1px solid #004994 !important;
+}
 #accordion h4 > a {
   display: block;
 }
