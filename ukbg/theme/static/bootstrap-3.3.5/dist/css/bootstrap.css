@@ -9827,6 +9827,12 @@ label {
     margin-left: 10px;
     margin-bottom: 10px;
   }
+  .footer ul li#document-action-download_pdf {
+    margin-left: 2px;
+  }
+  .footer ul li#document-action-download_pdf:before {
+    color: #ffffff;
+  }
 }
 .myfooter {
   border-top: 1px solid white;

@@ -54,11 +54,17 @@
       }
     .footer ul li {
       padding: 0 10px;
-          display: block;
-    clear: left;
-    margin-left: 10px;
-    margin-bottom: 10px;
+      display: block;
+      clear: left;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      &#document-action-download_pdf {
+        margin-left: 2px;
+        &:before {
+          color: @white;
+        }
       }
+    }
 }
 
 // my footer styles
