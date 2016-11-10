@@ -9344,6 +9344,10 @@ table td.listingCheckbox {
 #folderlisting-main-table table > tbody > tr:nth-of-type(odd) {
   background-color: #f9f9f9;
 }
+#folderlisting-main-table table thead {
+  background-color: #004994;
+  color: #ffffff;
+}
 #accordion h4 > a {
   display: block;
 }
