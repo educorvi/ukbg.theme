@@ -7171,10 +7171,11 @@ li.listItem a:before {
   content: "\f0da";
 }
 #document-action-download_pdf:before {
+  content: "\f1c1";
   padding-left: 24px;
   font-family: 'FontAwesome';
   font-size: 14px;
-  content: "\f1c1";
+  color: #666666;
 }
 #mobile-site-action {
   float: right;
