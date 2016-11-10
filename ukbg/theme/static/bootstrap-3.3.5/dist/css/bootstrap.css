@@ -9351,6 +9351,9 @@ table td.listingCheckbox {
 #folderlisting-main-table table th {
   border-bottom: 1px solid #004994 !important;
 }
+#folderlisting-main-table table tr.draggable {
+  border-bottom: none;
+}
 #accordion h4 > a {
   display: block;
 }
