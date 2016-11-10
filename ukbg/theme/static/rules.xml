@@ -206,7 +206,7 @@
                         <a class="col-xs-12">
 
                             <xsl:attribute name="href">
-                                <xsl:value-of select="./a/@href"/>
+                                <xsl:value-of select=".//a/@href"/>
                             </xsl:attribute>
                             <h3 class="newsDescription">
                                 <xsl:value-of css:select=".tileHeadline > *"/>
