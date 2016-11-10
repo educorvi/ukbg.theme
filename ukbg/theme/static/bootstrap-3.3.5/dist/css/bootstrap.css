@@ -9306,6 +9306,44 @@ table td.listingCheckbox {
 #users_search td {
   border: 1px solid #004994;
 }
+#folderlisting-main-table table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  background: white;
+}
+#folderlisting-main-table table > thead > tr > th,
+#folderlisting-main-table table > tbody > tr > th,
+#folderlisting-main-table table > tfoot > tr > th,
+#folderlisting-main-table table > thead > tr > td,
+#folderlisting-main-table table > tbody > tr > td,
+#folderlisting-main-table table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+#folderlisting-main-table table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+#folderlisting-main-table table > caption + thead > tr:first-child > th,
+#folderlisting-main-table table > colgroup + thead > tr:first-child > th,
+#folderlisting-main-table table > thead:first-child > tr:first-child > th,
+#folderlisting-main-table table > caption + thead > tr:first-child > td,
+#folderlisting-main-table table > colgroup + thead > tr:first-child > td,
+#folderlisting-main-table table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+#folderlisting-main-table table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+#folderlisting-main-table table .table {
+  background-color: transparent;
+}
+#folderlisting-main-table table > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
 #accordion h4 > a {
   display: block;
 }
