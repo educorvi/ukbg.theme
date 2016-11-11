@@ -4936,6 +4936,8 @@ a.label:focus {
   background-color: #c9302c;
 }
 .badge,
+.actionMenuSelected .state-published,
+#edit-bar .state-published,
 #foldercontents-selectall,
 #foldercontents-clearselection {
   display: inline-block;
