@@ -8640,6 +8640,10 @@ li.divider-vertical:last-child {
     top: -20px;
     left: 86% !important;
   }
+  #portal-personaltools .dropdown-menu {
+    left: auto;
+    right: 0;
+  }
 }
 .pattern-math {
   padding-top: 80px;
