@@ -438,24 +438,32 @@ li.divider-vertical:last-child {
 
 // personal-tools
 #portal-personaltools {
-	position: absolute;
-	z-index: 3;
-	top: -3px;
-	padding: 0.1em 0.5em;
-	list-style-type: none;
-	}
-#portal-personaltools dd {
-	position:absolute;
-	}
-@media (max-width: 768px) {
-	#portal-personaltools {
+  position: absolute;
+  z-index: 3;
+  top: -3px;
+  padding: 0.1em 0.5em;
+  list-style-type: none;
+  dd {
+    position:absolute;
+  }
+  .dropdown-menu {
+    margin: 0 0 0 -1px;
+  }
+  @media (max-width: 768px) {
     top:-20px;
-    left:86% !important;
+    // left:86% !important;
+    right: 0;
     .dropdown-menu {
       .dropdown-menu-right;
     }
-	}
+  }
+  @media (min-width: 769px) and (max-width: 991px) {
+    .dropdown-menu {
+      left: 0;
+    }
+  }
 }
+
 // code tab
         .pattern-math {
             padding-top: 80px; padding-bottom: 80px;

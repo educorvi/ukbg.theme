@@ -8635,14 +8635,22 @@ li.divider-vertical:last-child {
 #portal-personaltools dd {
   position: absolute;
 }
+#portal-personaltools .dropdown-menu {
+  margin: 0 0 0 -1px;
+}
 @media (max-width: 768px) {
   #portal-personaltools {
     top: -20px;
-    left: 86% !important;
+    right: 0;
   }
   #portal-personaltools .dropdown-menu {
     left: auto;
     right: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  #portal-personaltools .dropdown-menu {
+    left: 0;
   }
 }
 .pattern-math {
