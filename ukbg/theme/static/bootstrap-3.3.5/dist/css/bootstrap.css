@@ -8267,8 +8267,8 @@ ul.listTypeSquare li {
 #edit-bar .state-published {
   background-color: #0095db;
 }
-.actionMenuSelected .active,
-#edit-bar .active {
+.actionMenuSelected .active a,
+#edit-bar .active a {
   background: ivory;
 }
 .breadcrumb {
