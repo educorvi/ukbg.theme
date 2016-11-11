@@ -8125,7 +8125,7 @@ span.image-caption {
     height: 285px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 979px) {
   .lupegrau {
     top: -70px;
   }
