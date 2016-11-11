@@ -8766,6 +8766,9 @@ th .searchButton {
 #foldercontents-clearselection:focus {
   text-decoration: none;
 }
+.portletWrapper {
+  position: relative;
+}
 .portlet-collection-revisionsliste-themen-a-z {
   overflow-y: scroll;
   max-height: 400px;
