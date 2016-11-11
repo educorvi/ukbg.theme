@@ -8646,7 +8646,7 @@ ul#portal-personaltools dd {
 ul#portal-personaltools .dropdown-menu {
   margin: 0 0 0 -1px;
 }
-@media (max-width: 768px) {
+@media (max-width: 979px) {
   ul#portal-personaltools {
     top: -40px;
     right: 0;
