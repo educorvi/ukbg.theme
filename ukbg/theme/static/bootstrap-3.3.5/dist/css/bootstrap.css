@@ -9833,9 +9833,10 @@ label {
   }
 }
 @media (max-width: 768px) {
-  .footer-wrapper .col-md-6 {
+  .footer-wrapper .col-xs-12 {
     padding-left: 0;
     padding-right: 0;
+    text-align: right;
   }
   .container {
     padding: 0 !important;
