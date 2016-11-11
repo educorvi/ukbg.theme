@@ -8098,7 +8098,7 @@ span.image-caption {
     margin-top: 0px;
   }
   .lupegrau {
-    position: relative;
+    position: absolute;
     top: -48px;
     right: 5px;
   }
@@ -9832,7 +9832,7 @@ label {
 }
 @media (max-width: 768px) {
   #portal-searchbox #searchGadget {
-    width: calc(70% + 35px);
+    width: 100%;
     margin-right: -35px;
   }
 }
