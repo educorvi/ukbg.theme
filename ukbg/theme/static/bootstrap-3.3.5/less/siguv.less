@@ -437,7 +437,7 @@ li.divider-vertical:last-child {
 }
 
 // personal-tools
-#portal-personaltools {
+ul#portal-personaltools {
   position: absolute;
   z-index: 3;
   top: -3px;
@@ -450,9 +450,11 @@ li.divider-vertical:last-child {
     margin: 0 0 0 -1px;
   }
   @media (max-width: 768px) {
-    top: -5px;
+    // top: -5px;
+    top: -40px;
     // left:86% !important;
     right: 0;
+    margin-right: 0;
     .dropdown-menu {
       .dropdown-menu-right;
     }

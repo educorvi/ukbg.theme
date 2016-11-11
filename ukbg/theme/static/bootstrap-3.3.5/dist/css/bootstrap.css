@@ -7771,6 +7771,11 @@ span.image-caption {
     top: -32px !important;
   }
 }
+@media (max-width: 768px) {
+  .lupegrau {
+    top: -70px;
+  }
+}
 @media (max-width: 979px) {
   .section-willkommen-bei-der-berufsgenossenschaft .offcanvas {
     display: none !important;
@@ -8625,31 +8630,32 @@ li.divider-vertical:last-child {
   height: 12px;
   margin: 2px 4px;
 }
-#portal-personaltools {
+ul#portal-personaltools {
   position: absolute;
   z-index: 3;
   top: -3px;
   padding: 0.1em 0.5em;
   list-style-type: none;
 }
-#portal-personaltools dd {
+ul#portal-personaltools dd {
   position: absolute;
 }
-#portal-personaltools .dropdown-menu {
+ul#portal-personaltools .dropdown-menu {
   margin: 0 0 0 -1px;
 }
 @media (max-width: 768px) {
-  #portal-personaltools {
-    top: -5px;
+  ul#portal-personaltools {
+    top: -40px;
     right: 0;
+    margin-right: 0;
   }
-  #portal-personaltools .dropdown-menu {
+  ul#portal-personaltools .dropdown-menu {
     left: auto;
     right: 0;
   }
 }
 @media (min-width: 769px) and (max-width: 991px) {
-  #portal-personaltools .dropdown-menu {
+  ul#portal-personaltools .dropdown-menu {
     left: 0;
   }
 }
