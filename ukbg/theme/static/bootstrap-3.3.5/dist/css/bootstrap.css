@@ -8766,6 +8766,20 @@ th .searchButton {
 #foldercontents-clearselection:focus {
   text-decoration: none;
 }
+.portlet-collection-revisionsliste-themen-a-z {
+  overflow-y: scroll;
+  max-height: 400px;
+}
+.portlet-collection-revisionsliste-themen-a-z dt.portletHeader {
+  position: absolute;
+  width: 86%;
+  top: -4px;
+  background-color: #fff;
+  padding-top: 6px;
+}
+.portlet-collection-revisionsliste-themen-a-z dt.portletHeader + dd {
+  margin-top: 2.5em;
+}
 /* PORTRAIT TABLETS */
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-header {
