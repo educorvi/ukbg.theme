@@ -8772,7 +8772,7 @@ th .searchButton {
 .portlet-collection-revisionsliste-themen-a-z {
   overflow-y: scroll;
   max-height: 400px;
-  margin: 0px 10px 15px 10px;
+  margin: 0px 10px 15px 10px !important;
 }
 /* PORTRAIT TABLETS */
 @media (min-width: 768px) and (max-width: 991px) {
