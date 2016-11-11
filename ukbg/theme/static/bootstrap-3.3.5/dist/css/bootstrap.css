@@ -9802,6 +9802,11 @@ label {
   content: "*";
   color: red;
 }
+@media (min-width: 769px) and (max-width: 991px) {
+  #livesearch0 .LSBox {
+    text-align: right;
+  }
+}
 #portal-searchbox #searchGadget {
   width: 70%;
   display: inline;
