@@ -8261,7 +8261,7 @@ ul.listTypeSquare li {
 }
 .actionMenuSelected,
 #edit-bar {
-  background: darkgrey;
+  background: #eeeeee;
 }
 .actionMenuSelected .state-published,
 #edit-bar .state-published {
@@ -8269,7 +8269,10 @@ ul.listTypeSquare li {
 }
 .actionMenuSelected .active a,
 #edit-bar .active a {
-  background: ivory;
+  background: #eeeeee;
+}
+.col-md-12 #edit-bar {
+  margin: 0 -3px;
 }
 .breadcrumb {
   padding-top: 5px;
