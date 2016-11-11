@@ -8454,7 +8454,7 @@ a.tile {
   }
   .navbar-collapse {
     padding-left: 0px !important;
-    padding-right: -4px !important;
+    padding-right: 0px !important;
   }
   .navbar .nav > li a {
     padding: 10px 8px 10px;
@@ -8640,7 +8640,7 @@ li.divider-vertical:last-child {
 }
 @media (max-width: 768px) {
   #portal-personaltools {
-    top: -20px;
+    top: -5px;
     right: 0;
   }
   #portal-personaltools .dropdown-menu {
@@ -9823,6 +9823,12 @@ label {
   width: 70%;
   display: inline;
   margin-right: -1px;
+}
+@media (max-width: 768px) {
+  #portal-searchbox #searchGadget {
+    width: calc(70% + 35px);
+    margin-right: -35px;
+  }
 }
 .LSBox .btn-default {
   vertical-align: bottom;
