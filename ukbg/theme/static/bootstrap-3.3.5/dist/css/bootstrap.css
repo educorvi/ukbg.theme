@@ -8602,6 +8602,9 @@ dl.portletLogin label {
 #site-action {
   padding-right: 0px;
 }
+#site-action .navbar {
+  min-height: 0;
+}
 #site-action .navbar .nav > li > a {
   color: #004994 !important;
   padding: 0 !important;
@@ -9837,7 +9840,7 @@ label {
   }
 }
 .LSBox .btn-default {
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 @media (min-width: 768px) {
   .myfooter {
