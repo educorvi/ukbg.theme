@@ -9977,6 +9977,8 @@ li.navTreeItem {
   display: block;
   text-indent: -16px;
   padding: 2px 4px 2px 16px;
+}
+li.navTreeItem + li.navTreeItem {
   border-top: 1px solid #004994;
 }
 li.navTreeItem a {
