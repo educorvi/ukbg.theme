@@ -8784,6 +8784,12 @@ th .searchButton {
   max-height: 400px;
   margin: 0px 10px 15px 10px !important;
 }
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus,
+.nav-pills > li > a:active,
+.nav-pills > li > a:active:focus {
+  background-color: #626262;
+}
 /* PORTRAIT TABLETS */
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-header {

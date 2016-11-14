@@ -604,3 +604,8 @@ th {
   //   }
   // }
 }
+.nav-pills > li > a {
+  &:hover, &:focus, &:active, &:active:focus {
+    background-color: lighten(@nav-tabs-active-link-hover-color, 5%);
+  }
+}
