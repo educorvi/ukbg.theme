@@ -9871,7 +9871,7 @@ label {
 }
 @media (min-width: 768px) {
   .myfooter {
-    margin-top: 40px !important;
+    margin-top: 50px !important;
   }
 }
 @media (max-width: 768px) {
