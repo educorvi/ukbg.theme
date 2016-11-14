@@ -8790,6 +8790,9 @@ th .searchButton {
 .nav-pills > li > a:active:focus {
   background-color: #fbfbfb;
 }
+.actionItems.nav-pills {
+  padding: 3px;
+}
 /* PORTRAIT TABLETS */
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-header {
