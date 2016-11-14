@@ -8788,7 +8788,7 @@ th .searchButton {
 .nav-pills > li > a:focus,
 .nav-pills > li > a:active,
 .nav-pills > li > a:active:focus {
-  background-color: #626262;
+  background-color: #fbfbfb;
 }
 /* PORTRAIT TABLETS */
 @media (min-width: 768px) and (max-width: 991px) {
