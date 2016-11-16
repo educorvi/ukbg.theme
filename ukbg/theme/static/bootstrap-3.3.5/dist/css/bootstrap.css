@@ -8789,7 +8789,7 @@ th .searchButton {
   bottom: 100%;
   width: calc(100% - 22px);
   background-color: #fff;
-  margin: 0 0 -1px !important;
+  margin: 0 0 -2px !important;
   padding-top: 6px;
 }
 @media (max-width: 991px) {
