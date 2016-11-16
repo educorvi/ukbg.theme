@@ -8782,7 +8782,23 @@ th .searchButton {
 .portlet-collection-revisionsliste-themen-a-z {
   overflow-y: scroll;
   max-height: 400px;
-  margin: 0px 10px 15px 10px !important;
+  margin: 4em 10px 15px 10px !important;
+}
+.portlet-collection-revisionsliste-themen-a-z dt.portletHeader {
+  position: absolute;
+  bottom: 100%;
+  width: calc(100% - 22px);
+  background-color: #fff;
+  margin: 0 0 -1px !important;
+  padding-top: 6px;
+}
+@media (max-width: 991px) {
+  .portlet-collection-revisionsliste-themen-a-z dt.portletHeader {
+    width: calc(100% - 20px);
+  }
+}
+.portlet-collection-revisionsliste-themen-a-z dt.portletHeader + dd {
+  margin-top: 10px;
 }
 .nav-pills > li > a:hover,
 .nav-pills > li > a:focus,

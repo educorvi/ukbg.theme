@@ -592,17 +592,27 @@ th {
 .portlet-collection-revisionsliste-themen-a-z {
   overflow-y: scroll;
   max-height: 400px;
-  margin: 0px 10px 15px 10px !important;
-  // dt.portletHeader {
-  //   position: absolute;
-  //   width: 86%; //rough estimate to expand bottom border
-  //   top: -4px;
-  //   background-color: #fff;
-  //   padding-top: 6px;
-  //   + dd {
-  //     margin-top: 2.5em;
-  //   }
-  // }
+  margin: 4em 10px 15px 10px !important;
+  dt.portletHeader {
+    // position: absolute;
+    // // width: 86%; //rough estimate to expand bottom border
+    // bottom: 100%;
+    // top: -4px;
+    // background-color: #fff;
+    // padding-top: 6px;
+    position: absolute;
+    bottom: 100%;
+    width: calc(100% - 22px);
+    background-color: #fff;
+    margin: 0 0 -1px !important;
+    padding-top: 6px;
+    @media (max-width: 991px) {
+      width: calc(100% - 20px);
+    }
+    + dd {
+      margin-top: 10px;
+    }
+  }
 }
 .nav-pills > li > a {
   &:hover, &:focus, &:active, &:active:focus {
