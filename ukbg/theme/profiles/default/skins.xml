@@ -2,11 +2,12 @@
 <object name="portal_skins" allow_any="False" cookie_persistence="False" default_skin="ukbg.theme">
 
   <object name="ukbg_custom"
-      meta_type="Filesystem Directory View"
-      directory="ukbg.theme:skins/ukbg_custom"/>
-  <skin-path name="ukbg.theme" based-on="Sunburst Theme">
+          meta_type="Filesystem Directory View"
+          directory="ukbg.theme:skins/ukbg_custom"/>
+  <skin-path name="ukbg.theme"
+             based-on="Sunburst Theme">
     <layer name="ukbg_custom"
-        insert-after="custom"/>
+           insert-after="custom"/>
   </skin-path>
 
 </object>
