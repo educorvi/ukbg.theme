@@ -4018,7 +4018,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: transparent;
 }
 .nav > li.disabled > a {
   color: #777777;
@@ -4033,7 +4033,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #eeeeee;
+  background-color: transparent;
   border-color: #004994;
 }
 .nav .nav-divider {
@@ -8280,6 +8280,10 @@ ul.listTypeSquare li {
   width: 100%;
   background-color: #e1e1e1;
   padding: 3px 3px 0;
+}
+.col-md-12 #edit-bar .nav-tabs a:hover,
+.col-md-12 #edit-bar .nav-tabs a:focus {
+  background-color: #eeeeee;
 }
 .breadcrumb {
   padding-top: 5px;
