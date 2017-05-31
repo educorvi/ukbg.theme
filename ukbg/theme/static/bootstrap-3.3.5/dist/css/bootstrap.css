@@ -2431,7 +2431,31 @@ table th[class*="col-"] {
   overflow-x: auto;
   min-height: 0.01%;
 }
+
+li#portaltab-arbeitsbereiche {
+  margin-left: 385px;
+  border-left: solid white 1px;
+  background-color: white;
+  color: #004994;
+}
+
+li#portaltab-arbeitsbereiche > a {
+  color: #004994 !important;
+}
+
 @media screen and (max-width: 767px) {
+
+  li#portaltab-arbeitsbereiche {
+    margin-left: 0px;
+    border-left: none;
+    background-color: white;
+    color: #004994;
+  }
+
+  li#portaltab-arbeitsbereiche > a {
+    color: #004994 !important;
+  }
+
   .table-responsive {
     width: 100%;
     margin-bottom: 15px;
@@ -5468,7 +5492,6 @@ button.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 20px;
-  background-color: #ffffff;
   border: 1px solid transparent;
   border-radius: 0px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -5721,6 +5744,9 @@ button.list-group-item-danger.active:focus {
 }
 .panel-primary {
   border-color: #004994;
+  border: none;
+  box-shadow: none;
+  background-color: none !important;
 }
 .panel-primary > .panel-heading {
   color: #ffffff;
@@ -5830,7 +5856,7 @@ button.list-group-item-danger.active:focus {
   border: 0;
 }
 .embed-responsive-16by9 {
-  padding-bottom: 56.25%;
+  padding-bottom: 62.25%;
 }
 .embed-responsive-4by3 {
   padding-bottom: 75%;
@@ -6814,6 +6840,15 @@ button.close {
 }
 .discreet {
   font-family: "DGUVMetaWeb-Normal";
+  color: grey;
+  font-size: 80%;
+}
+#content .callout,
+.portletStaticText .callout {
+    background: #eee;
+    padding: 1em;
+    border-left: 1em solid #ccc;
+    clear: both;
 }
 .relatedItems dt {
   margin-top: 20px;
