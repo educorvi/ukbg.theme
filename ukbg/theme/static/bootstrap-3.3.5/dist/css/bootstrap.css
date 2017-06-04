@@ -5946,6 +5946,7 @@ button.close {
 .modal-dialog {
   position: relative;
   width: auto;
+  height: auto;
   margin: 10px;
 }
 .modal-content {
@@ -8159,7 +8160,7 @@ span.image-caption {
     width: 44%;
   }
   .modal-body {
-    height: 285px;
+    height: auto;
   }
 }
 @media (max-width: 979px) {
