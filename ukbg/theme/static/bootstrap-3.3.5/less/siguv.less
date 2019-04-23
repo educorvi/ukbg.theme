@@ -5,12 +5,14 @@
 
 
 body {
-	background: url("../../../assets/img/background.jpg") repeat-x fixed left top;
-	background-color:#6d9ac1;
+//	background: url("../../../assets/img/background.jpg") repeat-x fixed left top;
+//	background-color:#6d9ac1;
+	background-color:white;
 	}
 
 #wrap {
-		background:@blueLighter;
+		//background:@blueLighter;
+		background: white;
 		padding-top:15px;
 	.maincolumn   {	
 		border-bottom:1px solid @blue;
@@ -637,3 +639,103 @@ th {
 .actionItems.nav-pills {
   padding: 3px;
 }
+
+//New Startpage cluster styles
+.template-startpage {
+	h1.documentFirstHeading {
+		display: none;
+	}
+	
+	#viewlet-below-content-title {
+		display: none;
+	}
+
+	ul.breadcrumb {
+		display: none;
+	}
+
+	.container-fluid {
+		margin-top: 15px;
+	}
+}
+
+.startpage-cluster-left:before {
+	content: "BG ETEM";
+	font-family: "DGUVMetaWeb-Bold", Helvetica, Arial, sans-serif;
+	color: rgb( 128, 128, 128);
+	padding: 0 5px;
+}
+
+.startpage-cluster-left{
+	.row {
+		padding: 0 5px;
+	}
+	.row:first-child {
+                .media-default {
+                        border-top: 1px solid rgb( 128, 128, 128);
+                }
+        }
+	.btn.btn-default {
+		margin-top:15px;
+	}
+}
+
+.startpage-cluster-right-top:before {
+        content: "Standorte";
+        font-family: "DGUVMetaWeb-Bold", Helvetica, Arial, sans-serif;
+        color: rgb( 128, 128, 128);
+        padding: 0 5px;
+}
+
+.startpage-cluster-right-top{
+	margin-bottom: 30px;
+
+        .row {
+                padding: 0 5px;
+        }
+	.row:first-child {
+                .media-default {
+                        border-top: 1px solid rgb( 128, 128, 128);
+                }
+        }
+	.btn.btn-default {
+                margin-top:15px;
+        }
+}
+
+.startpage-cluster-right-below:before {
+        content: "Bereiche";
+        font-family: "DGUVMetaWeb-Bold", Helvetica, Arial, sans-serif;
+        color: rgb( 128, 128, 128);
+        padding: 0 5px;
+}
+
+.startpage-cluster-right-below{
+        .row {
+                padding: 0 5px;
+        }
+        .row:first-child {
+		.media-default {
+                	border-top: 1px solid rgb( 128, 128, 128);
+        	}
+	}
+	.btn.btn-default {
+                margin-top:15px;
+        }
+}
+
+@media screen and (max-width:991px) {
+	.startpage-cluster-right-top {
+		margin-top: 30px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.startpage-cluster-left {
+			.media h3.newsDescription {
+				margin-top: 15px;
+			}
+			.media p.tileBody {
+				margin-bottom: 20px;
+			}
+		}
+} 
