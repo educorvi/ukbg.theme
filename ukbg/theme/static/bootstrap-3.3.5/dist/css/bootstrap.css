@@ -8203,12 +8203,11 @@ span.image-caption {
   }
 }
 body {
-  background: url("../../../assets/img/background.jpg") repeat-x fixed left top;
-  background-color: #6d9ac1;
+  background-color: white;
 }
 #wrap {
   padding-top: 15px;
-  background: #e2eef8;
+  background: white;
 }
 #wrap .maincolumn {
   background: white;
@@ -9946,7 +9945,10 @@ label {
   }
 }
 .footer-wrapper {
-  background: #e2eef8;
+  background: #004994;
+}
+.footer-wrapper .cell.width-full {
+  visibility: hidden;
 }
 .documentActions ul,
 .footer ul {
@@ -9978,6 +9980,7 @@ label {
   .footer {
     min-height: 90px;
     padding: 10px 0;
+    margin-top: 30px;
     margin-right: -3px;
     margin-left: -3px;
     background: #004994;
@@ -11168,5 +11171,152 @@ only screen and (                min-resolution: 2dppx) {
   .ms-tabs-template .ms-thumb-frame h3 {
     font-size: 16px;
   }
+}
+.template-startpage h1.documentFirstHeading {
+  display: none;
+}
+.template-startpage #viewlet-below-content-title {
+  display: none;
+}
+.template-startpage ul.breadcrumb {
+  display: none;
+}
+.template-startpage .container-fluid {
+  margin-top: 15px;
+}
+.startpage-cluster-left:before {
+  padding: 0 5px;
+  font-family: "DGUVMetaWeb-Bold", Helvetica, Arial, sans-serif;
+  color: #808080;
+  content: "BG ETEM";
+}
+.startpage-cluster-left .row {
+  padding: 0 5px;
+}
+.startpage-cluster-left .row:first-child .media-default {
+  border-top: 1px solid #808080;
+}
+.startpage-cluster-left .btn.btn-default {
+  margin-top: 15px;
+}
+.startpage-cluster-right-top:before {
+  padding: 0 5px;
+  font-family: "DGUVMetaWeb-Bold", Helvetica, Arial, sans-serif;
+  color: #808080;
+  content: "Standorte";
+}
+.startpage-cluster-right-top {
+  margin-bottom: 30px;
+}
+.startpage-cluster-right-top .row {
+  padding: 0 5px;
+}
+.startpage-cluster-right-top .row:first-child .media-default {
+  border-top: 1px solid #808080;
+}
+.startpage-cluster-right-top .btn.btn-default {
+  margin-top: 15px;
+}
+.startpage-cluster-right-below:before {
+  padding: 0 5px;
+  font-family: "DGUVMetaWeb-Bold", Helvetica, Arial, sans-serif;
+  color: #808080;
+  content: "Bereiche";
+}
+.startpage-cluster-right-below .row {
+  padding: 0 5px;
+}
+.startpage-cluster-right-below .row:first-child .media-default {
+  border-top: 1px solid #808080;
+}
+.startpage-cluster-right-below .btn.btn-default {
+  margin-top: 15px;
+}
+@media screen and (max-width: 991px) {
+  .startpage-cluster-right-top {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .startpage-cluster-left .media h3.newsDescription {
+    margin-top: 15px;
+  }
+  .startpage-cluster-left .media p.tileBody {
+    margin-bottom: 20px;
+  }
+}
+.collapsible-portlet h4.portletHeader {
+  padding: 0;
+  margin: 0!important;
+}
+.collapsible-portlet .collapsible-portlet-btn {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  background: none;
+  border: none;
+}
+.collapsible-portlet .collapsible-portlet-btn .portletTopRight .fa {
+  float: right;
+  padding: 5px 0 5px 5px;
+  font-size: 12px;
+}
+.collapsible-portlet .collapsible-portlet-btn .portletTopRight .fa-chevron-right {
+  display: block;
+}
+.collapsible-portlet .collapsible-portlet-btn .portletTopRight .fa-chevron-down {
+  display: none;
+}
+.collapsible-portlet .collapsible-portlet-btn.active .portletTopRight .fa-chevron-right {
+  display: none;
+}
+.collapsible-portlet .collapsible-portlet-btn.active .portletTopRight .fa-chevron-down {
+  display: block;
+}
+.collapsible-portlet .active,
+.collapsible-portlet .collapsible-portlet-btn:hover {
+  color: white;
+  background: #09c;
+}
+.collapsible-portlet #portletcontent {
+  display: none;
+  margin-top: 5px;
+}
+.collapsible-portlet.servicebuttons h4.portletHeader {
+  padding: 0;
+  margin: 0!important;
+}
+.collapsible-portlet.servicebuttons .collapsible-servicebutton-btn {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  background: none;
+  border: none;
+}
+.collapsible-portlet.servicebuttons .collapsible-servicebutton-btn .portletTopRight .fa {
+  float: right;
+  padding: 5px 0 5px 5px;
+  font-size: 12px;
+}
+.collapsible-portlet.servicebuttons .collapsible-servicebutton-btn .portletTopRight .fa-chevron-right {
+  display: block;
+}
+.collapsible-portlet.servicebuttons .collapsible-servicebutton-btn .portletTopRight .fa-chevron-down {
+  display: none;
+}
+.collapsible-portlet.servicebuttons .collapsible-servicebutton-btn.active .portletTopRight .fa-chevron-right {
+  display: none;
+}
+.collapsible-portlet.servicebuttons .collapsible-servicebutton-btn.active .portletTopRight .fa-chevron-down {
+  display: block;
+}
+.collapsible-portlet.servicebuttons .active,
+.collapsible-portlet.servicebuttons .collapsible-portlet-btn:hover {
+  color: white;
+  background: #09c;
+}
+.collapsible-portlet.servicebuttons .content {
+  display: none;
+  margin-top: 5px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
