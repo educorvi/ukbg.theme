@@ -319,9 +319,7 @@
                 </div>
             </replace>
         </rules>
-	<!-- rules for the servicebutton portlet --> 
-	<copy css:content="#servicebutton" css:theme="#servicebuttoncontent" /> 
-
+        
         <rules if-content="//*[@id='edit-bar']">
             <append css:theme="#edit-bar" css:content-children="#edit-bar"/>
 
