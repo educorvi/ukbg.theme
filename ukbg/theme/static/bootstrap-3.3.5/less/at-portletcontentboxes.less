@@ -27,25 +27,27 @@
                 }
         }
 
-        .collapsible-servicebutton-btn.active {
+        .list-group {
+                margin-bottom: -1px;
+        }
 
-                .portletTopRight .fa-chevron-right {
-                        display: none;
+        div.accordion.active {
+                .collapsible-servicebutton-btn {
+                        background: @bluehover;
+                        color: white;
+                        border: none;
+                        padding: 10px;
+                        width: 100%;
+                        text-align: left;
                 }
-                .portletTopRight .fa-chevron-down {
-                        display: block;
+
+		.collapsible-servicebutton-btn .portletTopRight .fa-chevron-right {
+			display: none;	
+		}
+		.collapsible-servicebutton-btn .portletTopRight .fa-chevron-down {
+			display: block;	
                 }
-        }
-
-        .active, .collapsible-portlet-btn:hover {
-                background:@bluehover;
-                color: white;
-        }
-
-        .content {
-                display: none;
-                margin-top: 5px;
-        }
+	}
 }
 
 //Styling for the Servicebuttons in the portlet
