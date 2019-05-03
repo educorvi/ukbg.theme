@@ -8854,9 +8854,6 @@ th .searchButton {
 .actionItems.nav-pills {
   padding: 3px;
 }
-#speiseplanportletcontent {
-  display: none;
-}
 body.userrole-anonymous #servicebutton {
   display: none;
 }
