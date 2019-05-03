@@ -8854,6 +8854,12 @@ th .searchButton {
 .actionItems.nav-pills {
   padding: 3px;
 }
+#speiseplanportletcontent {
+  display: none;
+}
+body.userrole-anonymous #servicebutton {
+  display: none;
+}
 /* PORTRAIT TABLETS */
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-header {
@@ -9944,11 +9950,9 @@ label {
     padding: 0 !important;
   }
 }
-.footer-wrapper {
-  background: #004994;
-}
+/*.footer-wrapper {background:#004994;}*/
 .footer-wrapper .cell.width-full {
-  visibility: hidden;
+  visibility: visible;
 }
 .documentActions ul,
 .footer ul {
@@ -11199,6 +11203,11 @@ only screen and (                min-resolution: 2dppx) {
 .startpage-cluster-left .btn.btn-default {
   margin-top: 15px;
 }
+.startpage-cluster-right p.tileBody {
+  max-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .startpage-cluster-right-top:before {
   padding: 0 5px;
   font-family: "DGUVMetaWeb-Bold", Helvetica, Arial, sans-serif;
@@ -11249,6 +11258,23 @@ only screen and (                min-resolution: 2dppx) {
   padding: 0;
   margin: 0!important;
 }
+.collapsible-portlet .list-group {
+  margin-bottom: -1px;
+}
+.collapsible-portlet div.accordion.active .collapsible-portlet-btn {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  background: #09c;
+  border: none;
+}
+.collapsible-portlet div.accordion.active .collapsible-portlet-btn .portletTopRight .fa-chevron-right {
+  display: none;
+}
+.collapsible-portlet div.accordion.active .collapsible-portlet-btn .portletTopRight .fa-chevron-down {
+  display: block;
+}
 .collapsible-portlet .collapsible-portlet-btn {
   width: 100%;
   padding: 10px;
@@ -11266,21 +11292,6 @@ only screen and (                min-resolution: 2dppx) {
 }
 .collapsible-portlet .collapsible-portlet-btn .portletTopRight .fa-chevron-down {
   display: none;
-}
-.collapsible-portlet .collapsible-portlet-btn.active .portletTopRight .fa-chevron-right {
-  display: none;
-}
-.collapsible-portlet .collapsible-portlet-btn.active .portletTopRight .fa-chevron-down {
-  display: block;
-}
-.collapsible-portlet .active,
-.collapsible-portlet .collapsible-portlet-btn:hover {
-  color: white;
-  background: #09c;
-}
-.collapsible-portlet #portletcontent {
-  display: none;
-  margin-top: 5px;
 }
 .collapsible-portlet.servicebuttons h4.portletHeader {
   padding: 0;
@@ -11304,19 +11315,65 @@ only screen and (                min-resolution: 2dppx) {
 .collapsible-portlet.servicebuttons .collapsible-servicebutton-btn .portletTopRight .fa-chevron-down {
   display: none;
 }
-.collapsible-portlet.servicebuttons .collapsible-servicebutton-btn.active .portletTopRight .fa-chevron-right {
+.collapsible-portlet.servicebuttons .list-group {
+  margin-bottom: -1px;
+}
+.collapsible-portlet.servicebuttons div.accordion.active .collapsible-servicebutton-btn {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  background: #09c;
+  border: none;
+}
+.collapsible-portlet.servicebuttons div.accordion.active .collapsible-servicebutton-btn .portletTopRight .fa-chevron-right {
   display: none;
 }
-.collapsible-portlet.servicebuttons .collapsible-servicebutton-btn.active .portletTopRight .fa-chevron-down {
+.collapsible-portlet.servicebuttons div.accordion.active .collapsible-servicebutton-btn .portletTopRight .fa-chevron-down {
   display: block;
 }
-.collapsible-portlet.servicebuttons .active,
-.collapsible-portlet.servicebuttons .collapsible-portlet-btn:hover {
-  color: white;
-  background: #09c;
+.service-button-portlet #servicebutton {
+  z-index: 99;
+  padding: 10px;
+  margin: 0 0 20px 0;
+  background-color: white;
+  border: 1px solid #efefef;
 }
-.collapsible-portlet.servicebuttons .content {
+.service-button-portlet #servicebutton h2 {
   display: none;
-  margin-top: 5px;
+}
+.service-button-portlet #servicebutton p {
+  padding: 0;
+}
+.service-button-portlet #servicebutton .praevdoc_contentbox .panel {
+  width: 190px;
+  max-height: 40px;
+  margin-bottom: 5px;
+  border: none;
+}
+.service-button-portlet #servicebutton .praevdoc_contentbox .panel .box-body .boxlink img {
+  float: left;
+  width: 20%;
+  margin-right: 5px;
+}
+.service-button-portlet #servicebutton .praevdoc_contentbox .panel .box-body .boxlink h6.cyan {
+  text-align: left;
+}
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height .2s ease-in-out;
+       -o-transition: max-height .2s ease-in-out;
+          transition: max-height .2s ease-in-out;
+}
+#servicebutton {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #e1e1e1;
+}
+#servicebutton .panel.panel-primary.panel-siguv {
+  height: 150px;
+  padding: 0;
+  margin-right: 15px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
