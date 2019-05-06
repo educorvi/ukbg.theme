@@ -11370,6 +11370,9 @@ only screen and (                min-resolution: 2dppx) {
 .collapsiblePortletCollection .list-group {
   margin-bottom: -1px;
 }
+.collapsiblePortletCollection div.accordion.active a {
+  color: white !important;
+}
 .collapsiblePortletCollection div.accordion.active .collapsible-portlet-btn {
   width: 100%;
   padding: 10px;
