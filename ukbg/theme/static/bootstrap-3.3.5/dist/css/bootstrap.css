@@ -5969,7 +5969,7 @@ button.close {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1040;
+  z-index: 10;
   background-color: #000;
 }
 .modal-backdrop.fade {
@@ -11370,6 +11370,10 @@ only screen and (                min-resolution: 2dppx) {
 .collapsiblePortletCollection .list-group {
   margin-bottom: -1px;
 }
+.collapsiblePortletCollection .accordion-content li.portletItem {
+  margin-left: 24px;
+  text-indent: -12px;
+}
 .collapsiblePortletCollection div.accordion.active a {
   color: white !important;
 }
@@ -11403,6 +11407,14 @@ only screen and (                min-resolution: 2dppx) {
   display: block;
 }
 .collapsiblePortletCollection .collapsible-portlet-btn .portletTopRight .fa-chevron-down {
+  display: none;
+}
+#portaltab-arbeitsbereiche {
+  margin-left: 150px;
+  background: #09c;
+  border-left: 1px solid white;
+}
+#viewlet-below-content #servicebuttoncontent {
   display: none;
 }
 #servicebutton {
