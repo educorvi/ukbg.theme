@@ -11363,6 +11363,45 @@ only screen and (                min-resolution: 2dppx) {
        -o-transition: max-height .2s ease-in-out;
           transition: max-height .2s ease-in-out;
 }
+.collapsiblePortletCollection h4.portletHeader {
+  padding: 0;
+  margin: 0!important;
+}
+.collapsiblePortletCollection .list-group {
+  margin-bottom: -1px;
+}
+.collapsiblePortletCollection div.accordion.active .collapsible-portlet-btn {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  background: #09c;
+  border: none;
+}
+.collapsiblePortletCollection div.accordion.active .collapsible-portlet-btn .portletTopRight .fa-chevron-right {
+  display: none;
+}
+.collapsiblePortletCollection div.accordion.active .collapsible-portlet-btn .portletTopRight .fa-chevron-down {
+  display: block;
+}
+.collapsiblePortletCollection .collapsible-portlet-btn {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  background: none;
+  border: none;
+}
+.collapsiblePortletCollection .collapsible-portlet-btn .portletTopRight .fa {
+  float: right;
+  padding: 5px 0 5px 5px;
+  font-size: 12px;
+}
+.collapsiblePortletCollection .collapsible-portlet-btn .portletTopRight .fa-chevron-right {
+  display: block;
+}
+.collapsiblePortletCollection .collapsible-portlet-btn .portletTopRight .fa-chevron-down {
+  display: none;
+}
 #servicebutton {
   padding: 10px;
   margin-top: 20px;
