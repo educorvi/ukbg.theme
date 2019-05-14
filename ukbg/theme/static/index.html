@@ -30,6 +30,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="/portal/portal_skins/custom/Startseiten.js" ></script>
 <!--
 <style>
 
@@ -45,7 +46,6 @@ body { background-color:#333; }
         width: 100%;
         animation: snow 10s linear infinite;
 }
-
 
 </style>
 -->
@@ -264,7 +264,7 @@ function rssfeedfunction() {
     //document.getElementById("document-action-print").insertAdjacentHTML("beforeBegin",'<li id="document-action-rss"> <a href="'+currentLocation+'/RSS" title=""> <span class="action_icon"></span><span>RSS-Feed</span> </a> </li>');
     //document.getElementById("docactions").innerHTML += '<li id="document-action-rss"> <a href="'+currentLocation+'/RSS" title=""> <span class="action_icon"></span><span>RSS-Feed</span> </a> </li>';
     //}
-
+ 
 
 };
 rssfeedfunction()
@@ -273,13 +273,25 @@ function commentFunction() {
 
     var url1 = window.location.href;
     var bool = url1.indexOf('@@') !== -1;
-    if ($(window).width() > 500 && !bool) {
-    document.getElementById("form-widgets-comment-text").cols = "70";
-    document.getElementById("form-widgets-comment-text").rows = "8";
-    document.getElementById("form-widgets-comment-text").style.resize = "both";
+    var discussion = document.getElementById("form-widgets-comment-text");
+    if ($(window).width() > 500 && !bool && discussion != null) {
+    discussion.cols = "70";
+    discussion.rows = "8";
+    document.style.resize = "both";
     }
 };
 commentFunction()
+
+
+function setAvatar() {
+
+   var originalavatar = document.getElementById("useravatar");
+   var element = document.getElementById("user-name");
+   element.insertBefore(originalavatar, element.childNodes[0]);
+
+}
+
+setAvatar()
 
 function controlers() {
 
